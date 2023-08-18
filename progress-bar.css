@@ -1,0 +1,101 @@
+/*No need to change anything in this file*/
+.progress-bar-container {
+    width: var(--progress-bar-width);
+    background-color: var(--progress-bar-background-color);
+    padding: var(--progress-bar-padding);
+    border: 1px solid var(--progress-bar-border-color);
+    border-radius: var(--progress-bar-border-radius);
+    align-items: center;
+    justify-items: center;
+
+    & .progress-bar-step-icon {
+        position: relative;
+        display: grid;
+        place-items: center;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 50%;
+        height: var(--progress-bar-item-circle-size);
+        width: var(--progress-bar-item-circle-size);
+        font-size: 12px;
+        line-height: var(--progress-bar-item-circle-size);
+    }
+
+    & .control-container {
+        padding: 0;
+        margin: 0;
+        line-height: var(--progress-bar-item-circle-size);
+    }
+
+    & .progress-bar-item-container {
+        width: 100%;
+        gap: 10px;
+        padding-bottom: var(--progress-bar-items-gap);
+
+        background-image: linear-gradient(to right, var(--progress-bar-item-todo-line-color) 2px, transparent 1px, transparent);
+        background-position: calc(var(--progress-bar-item-circle-size) / 2) 0;
+
+        & .progress-bar-step-icon {
+            background-color: var(--progress-bar-item-todo-background-color);
+            border-color: var(--progress-bar-item-todo-line-color);
+            color: var(--progress-bar-item-todo-font-color);
+
+            & .label-container {
+                color: var(--progress-bar-item-todo-font-color);
+            }
+        }
+    }
+
+    & .progress-bar-item-container.done {
+        background-image: linear-gradient(to right, var(--progress-bar-item-done-color) 2px, transparent 1px, transparent);
+        background-position: calc(var(--progress-bar-item-circle-size) / 2) 0;
+
+        & .progress-bar-step-icon {
+            background-color: var(--progress-bar-item-done-color);
+            color: var(--progress-bar-item-done-color);
+            background-image: var(--progress-bar-item-done-icon);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 20px;
+            color: transparent;
+
+            & .label-container {
+                color: transparent;
+            }
+        }
+    }
+
+    & .progress-bar-item-container.current {
+        background-image: linear-gradient(to right, var(--progress-bar-item-current-color) 2px, transparent 1px, transparent);
+        background-position: calc(var(--progress-bar-item-circle-size) / 2) 0;
+
+        & .progress-bar-step-label,
+        & .label-container {
+            color: var(--progress-bar-item-current-color);
+            font-weight: var(--progress-bar-item-current-weight);
+        }
+
+        & .progress-bar-step-icon {
+            background-color: var(--progress-bar-item-current-color);
+            background-image: var(--progress-bar-item-current-icon-2);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 20px;
+            outline: var(--progress-bar-item-current-color) 1px solid;
+            outline-offset: 3px;
+            color: transparent;
+
+            & .label-container {
+                color: transparent;
+            }
+        }
+    }
+
+     & .progress-bar-item-container:last-child {
+        padding-bottom: 0;
+    }
+
+   & .progress-bar-step-label {
+        line-height: var(--progress-bar-item-circle-size);
+    }
+}

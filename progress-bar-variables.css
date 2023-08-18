@@ -1,0 +1,26 @@
+/*
+Adjust the variable values as you see fit
+To change the icon colours, locate the substring: rgb(255,255,255) in the icon variables and adjust the rgb values
+*/
+:root {
+	--progress-bar-width: auto;
+	--progress-bar-background-color: #F2F2F2;
+	--progress-bar-border-color: #F2F2F2;
+	--progress-bar-border-radius: 4px;
+	--progress-bar-padding: 20px;
+	
+	--progress-bar-items-gap: 26px;
+	--progress-bar-item-circle-size: 26px;
+	
+	--progress-bar-item-done-color: #009688;
+	--progress-bar-item-done-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22rgb(255,255,255)%22%20d%3D%22M9%2016.17L4.83%2012l-1.42%201.41L9%2019L21%207l-1.41-1.41L9%2016.17z%22%2F%3E%3C%2Fsvg%3E");
+
+	--progress-bar-item-current-color: #20639B;
+	--progress-bar-item-current-icon-1: url("data:image/svg+xml,%3Csvg%20width%3D%2236%22%20height%3D%2236%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22rgb(255,255,255)%22%3E%3Cstyle%3E.spinner_Wezc%7Btransform-origin%3Acenter%3Banimation%3Aspinner_Oiah%20.75s%20step-end%20infinite%7D%40keyframes%20spinner_Oiah%7B8.3%25%7Btransform%3Arotate%2830deg%29%7D16.6%25%7Btransform%3Arotate%2860deg%29%7D25%25%7Btransform%3Arotate%2890deg%29%7D33.3%25%7Btransform%3Arotate%28120deg%29%7D41.6%25%7Btransform%3Arotate%28150deg%29%7D50%25%7Btransform%3Arotate%28180deg%29%7D58.3%25%7Btransform%3Arotate%28210deg%29%7D66.6%25%7Btransform%3Arotate%28240deg%29%7D75%25%7Btransform%3Arotate%28270deg%29%7D83.3%25%7Btransform%3Arotate%28300deg%29%7D91.6%25%7Btransform%3Arotate%28330deg%29%7D100%25%7Btransform%3Arotate%28360deg%29%7D%7D%3C%2Fstyle%3E%3Cg%20class%3D%22spinner_Wezc%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%222.5%22%20r%3D%221.5%22%20opacity%3D%22.14%22%2F%3E%3Ccircle%20cx%3D%2216.75%22%20cy%3D%223.77%22%20r%3D%221.5%22%20opacity%3D%22.29%22%2F%3E%3Ccircle%20cx%3D%2220.23%22%20cy%3D%227.25%22%20r%3D%221.5%22%20opacity%3D%22.43%22%2F%3E%3Ccircle%20cx%3D%2221.50%22%20cy%3D%2212.00%22%20r%3D%221.5%22%20opacity%3D%22.57%22%2F%3E%3Ccircle%20cx%3D%2220.23%22%20cy%3D%2216.75%22%20r%3D%221.5%22%20opacity%3D%22.71%22%2F%3E%3Ccircle%20cx%3D%2216.75%22%20cy%3D%2220.23%22%20r%3D%221.5%22%20opacity%3D%22.86%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2221.5%22%20r%3D%221.5%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+	--progress-bar-item-current-icon-2: url("data:image/svg+xml,%3Csvg%20width%3D%2236%22%20height%3D%2236%22%20fill%3D%22rgb(255,255,255)%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cstyle%3E.spinner_DupU%7Banimation%3Aspinner_sM3D%201.2s%20infinite%7D.spinner_GWtZ%7Banimation-delay%3A.1s%7D.spinner_dwN6%7Banimation-delay%3A.2s%7D.spinner_46QP%7Banimation-delay%3A.3s%7D.spinner_PD82%7Banimation-delay%3A.4s%7D.spinner_eUgh%7Banimation-delay%3A.5s%7D.spinner_eUaP%7Banimation-delay%3A.6s%7D.spinner_j38H%7Banimation-delay%3A.7s%7D.spinner_tVmX%7Banimation-delay%3A.8s%7D.spinner_DQhX%7Banimation-delay%3A.9s%7D.spinner_GIL4%7Banimation-delay%3A1s%7D.spinner_n0Yb%7Banimation-delay%3A1.1s%7D%40keyframes%20spinner_sM3D%7B0%25%2C50%25%7Banimation-timing-function%3Acubic-bezier%280%2C1%2C0%2C1%29%3Br%3A0%7D10%25%7Banimation-timing-function%3Acubic-bezier%28.53%2C0%2C.61%2C.73%29%3Br%3A2px%7D%7D%3C%2Fstyle%3E%3Ccircle%20class%3D%22spinner_DupU%22%20cx%3D%2212%22%20cy%3D%223%22%20r%3D%220%22%2F%3E%3Ccircle%20class%3D%22spinner_DupU%20spinner_GWtZ%22%20cx%3D%2216.50%22%20cy%3D%224.21%22%20r%3D%220%22%2F%3E%3Ccircle%20class%3D%22spinner_DupU%20spinner_n0Yb%22%20cx%3D%227.50%22%20cy%3D%224.21%22%20r%3D%220%22%2F%3E%3Ccircle%20class%3D%22spinner_DupU%20spinner_dwN6%22%20cx%3D%2219.79%22%20cy%3D%227.50%22%20r%3D%220%22%2F%3E%3Ccircle%20class%3D%22spinner_DupU%20spinner_GIL4%22%20cx%3D%224.21%22%20cy%3D%227.50%22%20r%3D%220%22%2F%3E%3Ccircle%20class%3D%22spinner_DupU%20spinner_46QP%22%20cx%3D%2221.00%22%20cy%3D%2212.00%22%20r%3D%220%22%2F%3E%3Ccircle%20class%3D%22spinner_DupU%20spinner_DQhX%22%20cx%3D%223.00%22%20cy%3D%2212.00%22%20r%3D%220%22%2F%3E%3Ccircle%20class%3D%22spinner_DupU%20spinner_PD82%22%20cx%3D%2219.79%22%20cy%3D%2216.50%22%20r%3D%220%22%2F%3E%3Ccircle%20class%3D%22spinner_DupU%20spinner_tVmX%22%20cx%3D%224.21%22%20cy%3D%2216.50%22%20r%3D%220%22%2F%3E%3Ccircle%20class%3D%22spinner_DupU%20spinner_eUgh%22%20cx%3D%2216.50%22%20cy%3D%2219.79%22%20r%3D%220%22%2F%3E%3Ccircle%20class%3D%22spinner_DupU%20spinner_j38H%22%20cx%3D%227.50%22%20cy%3D%2219.79%22%20r%3D%220%22%2F%3E%3Ccircle%20class%3D%22spinner_DupU%20spinner_eUaP%22%20cx%3D%2212%22%20cy%3D%2221%22%20r%3D%220%22%2F%3E%3C%2Fsvg%3E");
+	--progress-bar-item-current-weight: 600;
+	
+	--progress-bar-item-todo-line-color: #B3B3B3;
+	--progress-bar-item-todo-background-color: white;
+	--progress-bar-item-todo-font-color: transparent;
+}
