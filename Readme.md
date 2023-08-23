@@ -32,6 +32,7 @@ Place as many steps as you need underneath each other
 9. Add a description for this step into the *Text* property of the "ProgressBarStepLabel" control
 
 A single step should look like this
+
 ![StadiumDesigner_8seIX8j0xH](https://github.com/stadium-software/progress-bar/assets/2085324/d73af593-e096-4eb0-b2ea-9cec0ba84a12)
 
 ## Dynamic Page Setup
