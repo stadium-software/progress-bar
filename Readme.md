@@ -12,16 +12,18 @@ A sample application that contains a vertical progress bar to show workflow step
 ## Static Page Setup
 1. Drag a *Flexbox* control to a page and name it "ProgressBarContainer"
 2. Add a class called "progress-bar-container" to the "ProgressBarContainer" control *Classes* property 
-3. Drag a *Flexbox* control into the "ProgressBarContainer" control and name it "ProgressBarItemContainer"
-4. Add a class called "progress-bar-item-container" to the "ProgressBarItemContainer" control *Classes* property 
-5. Drag a *Container* control into the "ProgressBarItemContainer" control and name it "ProgressBarStepIcon"
-6. Add a class called "progress-bar-step-icon" to the "ProgressBarItemContainer" control *Classes* property 
-7. Drag a *Label* control into the "ProgressBarStepIcon" control and name it "ProgressBarStepIconLabel"
-8. Optional: Add a number that can optionally be shown for items in a *ToDo* state to indicate the step number
-9. Drag a *Label* control into the "ProgressBarItemContainer" and place it next to the "ProgressBarStepIcon" control, then name it "ProgressBarStepLabel"
-10. Add a class called "progress-bar-step-label" to the "ProgressBarStepLabel" control *Classes* property 
-11. In the text property of the "ProgressBarStepLabel" control, add the description for this step
-12. To add another step, repeat steps 3-11, placing the next "ProgressBarContainer" control underneath the one preceeding it
+
+### Creating a step
+Place as many steps as you need underneath each other
+1. Drag a *Flexbox* control into the "ProgressBarContainer" control and name it "ProgressBarItemContainer"
+2. Add a class called "progress-bar-item-container" to the "ProgressBarItemContainer" control *Classes* property 
+3. Drag a *Container* control into the "ProgressBarItemContainer" control and name it "ProgressBarStepIcon"
+4. Add a class called "progress-bar-step-icon" to the "ProgressBarItemContainer" control *Classes* property 
+5. Drag a *Label* control into the "ProgressBarStepIcon" control and name it "ProgressBarStepIconLabel"
+6. Optional: Add the step number into the *Text* property of the "ProgressBarStepIconLabel" control. This number will display on steps in the *ToDo* state
+7.  Drag a *Label* control into the "ProgressBarItemContainer" and place it next to the "ProgressBarStepIcon" control, then name it "ProgressBarStepLabel"
+8. Add a class called "progress-bar-step-label" to the "ProgressBarStepLabel" control *Classes* property 
+9. Add a description for this step into the *Text* property of the "ProgressBarStepLabel" control
 
 ## Dynamic Page Setup
 1. Drag a *Flexbox* control to a page and name it "ProgressBarContainer"
