@@ -20,7 +20,6 @@ https://github.com/stadium-software/progress-bar/assets/2085324/111b1d76-1987-40
 2. Add a class called "progress-bar-container" to the "ProgressBarContainer" control *Classes* property 
 
 ### Creating a step
-Place as many steps as you need underneath each other
 1. Drag a *Flexbox* control into the "ProgressBarContainer" control and name it "ProgressBarItemContainer"
 2. Add a class called "progress-bar-item-container" to the "ProgressBarItemContainer" control *Classes* property 
 3. Drag a *Container* control into the "ProgressBarItemContainer" control and name it "ProgressBarStepIcon"
@@ -31,8 +30,9 @@ Place as many steps as you need underneath each other
 8. Add a class called "progress-bar-step-label" to the "ProgressBarStepLabel" control *Classes* property 
 9. Add a description for this step into the *Text* property of the "ProgressBarStepLabel" control
 
-Each step should look like this<br>
+When your "ProgressBarContainer" control contains one step, it should look like this<br>
 ![StadiumDesigner_8seIX8j0xH](https://github.com/stadium-software/progress-bar/assets/2085324/d73af593-e096-4eb0-b2ea-9cec0ba84a12)
+<br>Place as many steps as you need underneath each other
 
 ## Dynamic Page Setup
 1. Drag a *Flexbox* control to a page and name it "ProgressBarContainer"
