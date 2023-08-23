@@ -3,6 +3,12 @@
 ## Description
 A sample application that contains a vertical progress bar to show workflow steps in 'done', 'current' or 'todo' states. The sample contains a static implementation as well as one that is generated on page load from data provided in a list. The look and feel is customisable using the variables provided in the *progress-bar-variables.css* file. 
 
+
+
+https://github.com/stadium-software/progress-bar/assets/2085324/111b1d76-1987-40e3-b0ee-1548c729423c
+
+
+
 ## Version
 1.0
 
