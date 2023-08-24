@@ -16,6 +16,8 @@ https://github.com/stadium-software/progress-bar/assets/2085324/111b1d76-1987-40
 1. Check the *Enable Style Sheet* checkbox in the application properties
 
 ## Static Progress Bar
+
+### Page Setup
 1. Drag a *Flexbox* control to a page and name it "ProgressBarContainer"
 2. Add a class called "progress-bar-container" to the "ProgressBarContainer" control *Classes* property 
 
