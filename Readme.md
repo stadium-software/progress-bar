@@ -15,7 +15,7 @@ https://github.com/stadium-software/progress-bar/assets/2085324/111b1d76-1987-40
 ## Application Setup
 1. Check the *Enable Style Sheet* checkbox in the application properties
 
-## Static Page Setup
+## Static Progress Bar
 1. Drag a *Flexbox* control to a page and name it "ProgressBarContainer"
 2. Add a class called "progress-bar-container" to the "ProgressBarContainer" control *Classes* property 
 
@@ -43,13 +43,19 @@ When you have added one step into your "ProgressBarContainer" control, it should
 | 4. | Label | ProgressBarStepIcon | ProgressBarStepIconLabel|  | Step description |
 | 5. | Label | Next to "ProgressBarStepIcon" | ProgressBarStepLabel| progress-bar-step-label | Step number |
 
-## Dynamic Page Setup
+## Dynamic Progress Bar
+
+### Page Setup
 1. Drag a *Flexbox* control to a page and name it "ProgressBarContainer"
 2. Add a class called "progress-bar-container" to the "ProgressBarContainer" control *Classes* property 
+
+### Type Setup
 3. Create a new type in Types in the Application Explorer called "ProgressBarItem"
 4. Add two properties to this type. Both properties must be of type *Any*
    1. status
    2. label
+
+### Script Setup
 5. Create a script under the page and call it "CreateProgressBarElement"
 6. Add two *Input Parameters* to the script
    1. status
@@ -77,6 +83,8 @@ container.appendChild(description);
 let progressbar = document.querySelector(".progress-bar-container");
 progressbar.appendChild(container);
 ```
+
+### Page.load Setup
 7. Drag a List from the Toolbox into the page.load event handler
 8. In the *Item Type* property of the list, select "ProgressBarItem" under *Types*
 9. Add values to the list *Value* property as required
