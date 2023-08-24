@@ -31,7 +31,7 @@ Each step added into the "ProgressBarContainer" control needsd to end up looking
 ![StadiumDesigner_8seIX8j0xH](https://github.com/stadium-software/progress-bar/assets/2085324/d73af593-e096-4eb0-b2ea-9cec0ba84a12)
 <br>You can place as many steps as you need underneath each other
 
-### Static Controls Map
+<strong>Static Controls Map</strong>
 | | Control | Location | Name | class | Text |
 | --- | --- | --- | --- |--- |---
 | 1. | Flexbox | page | ProgressBarContainer| progress-bar-container | |
@@ -41,7 +41,7 @@ Each step added into the "ProgressBarContainer" control needsd to end up looking
 | 5. | Label | Next to "ProgressBarStepIcon" | ProgressBarStepLabel| progress-bar-step-label | Step number |
 
 
-### Controls Setup 
+<strong>Controls Setup</strong>
 1. Drag a *Flexbox* control into the "ProgressBarContainer" control and name it "ProgressBarItemContainer"
 2. Add a class called "progress-bar-item-container" to the "ProgressBarItemContainer" control *Classes* property 
 3. Drag a *Container* control into the "ProgressBarItemContainer" control and name it "ProgressBarStepIcon"
@@ -62,17 +62,17 @@ The dynamic version is created from a list of items in a script or event handler
 2. Add a class called "progress-bar-container" to the "ProgressBarContainer" control *Classes* property 
 
 ### Type Setup
-3. Create a new type in Types in the Application Explorer called "ProgressBarItem"
-4. Add two properties to this type. Both properties must be of type *Any*
+1. Create a new type in Types in the Application Explorer called "ProgressBarItem"
+2. Add two properties to this type. Both properties must be of type *Any*
    1. status
    2. label
 
 ### Script Setup
-5. Create a script under the page and call it "CreateProgressBarElement"
-6. Add two *Input Parameters* to the script
+1. Create a script under the page and call it "CreateProgressBarElement"
+2. Add two *Input Parameters* to the script
    1. status
    2. label
-7. Drag a Javascript action into the script and add the Javascript below into the *Code* property
+3. Drag a Javascript action into the script and add the Javascript below into the *Code* property
 ```
 let container = document.createElement("div");
 container.classList.add("progress-bar-item-container");
@@ -97,11 +97,11 @@ progressbar.appendChild(container);
 ```
 
 ### Page.load Setup
-7. Drag a List from the Toolbox into the page.load event handler
-8. In the *Item Type* property of the list, select "ProgressBarItem" under *Types*
-9. Add values to the list *Value* property as required
-10. Drag a *ForEach* action below the List and assign the List to the *List* property
-11. Drag the *CreateProgressBarElement* script into the *Loop* of the *ForEach* action
+1. Drag a List from the Toolbox into the page.load event handler
+2. In the *Item Type* property of the list, select "ProgressBarItem" under *Types*
+3. Add values to the list *Value* property as required
+4. Drag a *ForEach* action below the List and assign the List to the *List* property
+5. Drag the *CreateProgressBarElement* script into the *Loop* of the *ForEach* action
     1.  Assign the *ForEach.label* value to the *label* script *Input Parameters* property
     2.  Assign the *ForEach.status* value to the *status* script *Input Parameters* property
 
