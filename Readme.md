@@ -16,6 +16,7 @@ https://github.com/stadium-software/progress-bar/assets/2085324/111b1d76-1987-40
 1. Check the *Enable Style Sheet* checkbox in the application properties
 
 ## Static Progress Bar
+The static version is created using a set of Stadium controls
 
 ### Page Setup
 1. Drag a *Flexbox* control to a page and name it "ProgressBarContainer"
@@ -46,6 +47,7 @@ When you have added one step into your "ProgressBarContainer" control, it should
 | 5. | Label | Next to "ProgressBarStepIcon" | ProgressBarStepLabel| progress-bar-step-label | Step number |
 
 ## Dynamic Progress Bar
+The dynamic version is created from a list of items in a script or event handler using Javascript only. This allows for dynamically generating a progress bar using a dataset from a database or API. 
 
 ### Page Setup
 1. Drag a *Flexbox* control to a page and name it "ProgressBarContainer"
