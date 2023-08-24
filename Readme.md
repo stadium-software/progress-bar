@@ -98,7 +98,9 @@ progressbar.appendChild(container);
     2.  Assign the *ForEach.status* value to the *status* script *Input Parameters* property
 
 ## StyleSheet CSS
-1. Open the CSS file called *progress-bar-variables.css* from this repo in an editor of your choice (I recommend [VS Code](https://code.visualstudio.com/))
+The look and feel of the progress bar can be adjusted using a set of CSS variables located in the attached *progress-bar-variables.css* file. 
+
+1. Open the CSS file called [*progress-bar-variables.css*](progress-bar-variables.css) from this repo in an editor of your choice (I recommend [VS Code](https://code.visualstudio.com/))
 2. Adjust the variables in the *:root* element as you see fit
 
 ## Applying the CSS
