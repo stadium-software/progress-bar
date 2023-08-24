@@ -51,7 +51,10 @@ When you have added one step into your "ProgressBarContainer" control, it should
    1. status
    2. label
 5. Create a script under the page and call it "CreateProgressBarElement"
-6. Drag a Javascript action into the script and add the Javascript below into the *Code* property
+6. Add two *Input Parameters* to the script
+   1. status
+   2. label
+7. Drag a Javascript action into the script and add the Javascript below into the *Code* property
 ```
 let container = document.createElement("div");
 container.classList.add("progress-bar-item-container");
