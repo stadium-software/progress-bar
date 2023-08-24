@@ -12,13 +12,15 @@ https://github.com/stadium-software/progress-bar/assets/2085324/111b1d76-1987-40
 ## Version
 1.0
 
+<hr>
+
 ## Application Setup
 1. Check the *Enable Style Sheet* checkbox in the application properties
 
 <hr>
 
 ## Static Progress Bar
-The static version is created using a set of Stadium controls
+Each static progress bar must be created using a set of Stadium controls
 
 ### Page Setup
 1. Drag a *Flexbox* control to a page and name it "ProgressBarContainer"
