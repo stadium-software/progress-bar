@@ -41,7 +41,7 @@ Each step added into the "ProgressBarContainer" control needsd to end up looking
 | 5. | Label | Next to "ProgressBarStepIcon" | ProgressBarStepLabel| progress-bar-step-label | Step number |
 
 
-### Controls
+### Controls Setup 
 1. Drag a *Flexbox* control into the "ProgressBarContainer" control and name it "ProgressBarItemContainer"
 2. Add a class called "progress-bar-item-container" to the "ProgressBarItemContainer" control *Classes* property 
 3. Drag a *Container* control into the "ProgressBarItemContainer" control and name it "ProgressBarStepIcon"
