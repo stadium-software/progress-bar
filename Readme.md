@@ -27,7 +27,7 @@ Each static progress bar must be created using a set of Stadium controls
 2. Add a class called "progress-bar-container" to the "ProgressBarContainer" control *Classes* property 
 
 ### Creating a step
-Each step added into the "ProgressBarContainer" control needsd to end up looking like this<br>
+Each step added into the "ProgressBarContainer" control needs to end up looking like this<br>
 ![StadiumDesigner_8seIX8j0xH](https://github.com/stadium-software/progress-bar/assets/2085324/d73af593-e096-4eb0-b2ea-9cec0ba84a12)
 <br>You can place as many steps as you need underneath each other
 
@@ -39,18 +39,6 @@ Each step added into the "ProgressBarContainer" control needsd to end up looking
 | 3. | Container | ProgressBarItemContainer | ProgressBarStepIcon| progress-bar-step-icon | |
 | 4. | Label | ProgressBarStepIcon | ProgressBarStepIconLabel|  | Step description |
 | 5. | Label | Next to "ProgressBarStepIcon" | ProgressBarStepLabel| progress-bar-step-label | Step number |
-
-
-<strong>Controls Setup</strong>
-1. Drag a *Flexbox* control into the "ProgressBarContainer" control and name it "ProgressBarItemContainer"
-2. Add a class called "progress-bar-item-container" to the "ProgressBarItemContainer" control *Classes* property 
-3. Drag a *Container* control into the "ProgressBarItemContainer" control and name it "ProgressBarStepIcon"
-4. Add a class called "progress-bar-step-icon" to the "ProgressBarItemContainer" control *Classes* property 
-5. Drag a *Label* control into the "ProgressBarStepIcon" control and name it "ProgressBarStepIconLabel"
-6. Optional: Add the step number into the *Text* property of the "ProgressBarStepIconLabel" control. This number will display on steps in the *ToDo* state
-7.  Drag a *Label* control into the "ProgressBarItemContainer" and place it next to the "ProgressBarStepIcon" control, then name it "ProgressBarStepLabel"
-8. Add a class called "progress-bar-step-label" to the "ProgressBarStepLabel" control *Classes* property 
-9. Add a description for this step into the *Text* property of the "ProgressBarStepLabel" control
 
 <hr>
 
