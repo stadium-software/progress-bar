@@ -10,7 +10,7 @@ https://github.com/stadium-software/progress-bar/assets/2085324/111b1d76-1987-40
 
 
 ## Version
-1.0
+1.1 (I now recommend to create a CSS folder in your EmbeddedFiles folder to house the CSS files from this repo)
 
 <hr>
 
@@ -105,11 +105,12 @@ The look and feel of the progress bar can be adjusted using a set of CSS variabl
 How to apply the CSS to your application
 
 ### Stadium 6 (versions 6.6 and above)
-1. Add the two CSS files to the Embedded Files of your application
-2. Paste the link tags below into the *head* property of your application
+1. Create a folder called *CSS* in the EmbeddeFiles folder in your application 
+2. Add the two CSS files to that folder
+3. Paste the link tags below into the *head* property of your application
 ```
-<link rel="stylesheet" href="{EmbeddedFiles}/progress-bar.css">
-<link rel="stylesheet" href="{EmbeddedFiles}/progress-bar-variables.css">
+<link rel="stylesheet" href="{EmbeddedFiles}/CSS/progress-bar.css">
+<link rel="stylesheet" href="{EmbeddedFiles}/CSS/progress-bar-variables.css">
 ``` 
 
 <hr>
