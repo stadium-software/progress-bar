@@ -3,11 +3,7 @@
 ## Description
 A sample application that contains a vertical progress bar to show workflow steps in 'done', 'current' or 'todo' states. The sample contains a static implementation as well as one that is generated on page load from data provided in a list. The look and feel is customisable using the variables provided in the *progress-bar-variables.css* file. 
 
-
-
 https://github.com/stadium-software/progress-bar/assets/2085324/111b1d76-1987-40e3-b0ee-1548c729423c
-
-
 
 ## Version
 1.1 (I now recommend to create a CSS folder in your EmbeddedFiles folder to house the CSS files from this repo)
@@ -61,7 +57,7 @@ The dynamic version is created from a list of items in a script or event handler
    1. status
    2. label
 3. Drag a Javascript action into the script and add the Javascript below into the *Code* property
-```
+```javascript
 let container = document.createElement("div");
 container.classList.add("progress-bar-item-container");
 container.classList.add(~.Parameters.Input.status);
@@ -108,7 +104,7 @@ How to apply the CSS to your application
 1. Create a folder called *CSS* in the EmbeddeFiles folder in your application 
 2. Add the two CSS files to that folder
 3. Paste the link tags below into the *head* property of your application
-```
+```html
 <link rel="stylesheet" href="{EmbeddedFiles}/CSS/progress-bar.css">
 <link rel="stylesheet" href="{EmbeddedFiles}/CSS/progress-bar-variables.css">
 ``` 
