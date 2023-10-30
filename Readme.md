@@ -5,6 +5,10 @@ A sample application that contains a vertical progress bar to show workflow step
 
 https://github.com/stadium-software/progress-bar/assets/2085324/111b1d76-1987-40e3-b0ee-1548c729423c
 
+## Sample applications
+This repo contains one Stadium 6.7 application
+[ProgressBarSample.sapz](Stadium6/ProgressBarSample.sapz?raw=true)
+
 ## Version
 1.1 (I now recommend to create a CSS folder in your EmbeddedFiles folder to house the CSS files from this repo)
 
