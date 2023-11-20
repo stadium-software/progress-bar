@@ -62,6 +62,7 @@ The dynamic version is created from a list of items in a script or event handler
    2. label
 3. Drag a Javascript action into the script and add the Javascript below into the *Code* property
 ```javascript
+/* Stadium Script Version 1.1 */
 let container = document.createElement("div");
 container.classList.add("progress-bar-item-container");
 container.classList.add(~.Parameters.Input.status);
